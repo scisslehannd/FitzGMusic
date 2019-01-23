@@ -3,9 +3,8 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
-
 body {
-  font-family: 'Lora';
+  font-family: 'Cormorant';
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/bg.jpg");
   background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
   background-attachment: fixed;
@@ -19,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway';
+  font-family: 'Rock Salt';
 }
 
 p {
@@ -35,7 +34,7 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: 'Rock Salt';
 }
 
 .site-heading .site-heading-upper {
@@ -46,7 +45,7 @@ p {
 
 .site-heading .site-heading-lower {
   font-size: 5rem;
-  font-weight: 100;
+  font-weight: 40;
   line-height: 4rem;
 }
 
@@ -72,16 +71,16 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
-  font-family: 'Raleway';
+  background-color: rgba(0, 0, 15, 0.9);
+  font-family: 'Rock Salt';
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #e6f000;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
