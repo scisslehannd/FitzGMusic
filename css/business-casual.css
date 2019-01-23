@@ -12,7 +12,9 @@ body {
   background-size: cover;
 }
 
-h1,
+h1{
+  font-family: 'Rock Salt';
+},
 h2,
 h3,
 h4,
@@ -145,26 +147,17 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(111, 111, 111, 0);
 }
 
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(100, 100, 100, 0.85);
+  background-color: rgba(111, 111, 111, 0.8);
 }
 
-.cta .cta-inner:before {
-  border-radius: 0.5rem;
-  content: '';
-  position: absolute;
-  top: -0.5rem;
-  bottom: -0.5rem;
-  left: -0.5rem;
-  right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
-}
+
 
 @media (min-width: 992px) {
   .about-heading .about-heading-img {
@@ -225,7 +218,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .text-primary {
